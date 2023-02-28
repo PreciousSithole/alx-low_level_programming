@@ -7,24 +7,15 @@
  */
 void puts2(char *str)
 {
-	int length;
-	int halfstring;
-	int x;
+	int i = 0;
 
-	length = 0;
-	x = 0;
-
-	while (str[length] != '\0')
+	while (str[i] != '\0'
 	{
-		length++;
+		if (i % 2 == 0)
+		{
+			printf("%c", str[i]);
+		}
+		i++;
 	}
-	halfstring = length / 2;
-
-	do {
-		printf("%c", str[0]);
-	}
-	while (x % 2 == 0 && x <= halfstring);
-	{
-		printf("%c", str[x]);
-	}
+	printf("\n";)
 }
