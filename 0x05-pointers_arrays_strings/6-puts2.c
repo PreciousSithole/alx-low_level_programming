@@ -23,7 +23,7 @@ void puts2(char *str)
 	do {
 		printf("%c", str[0]);
 	}
-	while (x % 2 == 0 && x <= halfstring)
+	while (x % 2 == 0 && x <= halfstring);
 	{
 		prinf("%c", str[x]);
 	}
