@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _puts - prints a string, followed by a new line, to stdout
@@ -6,10 +7,16 @@
  */
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+
+	int p;
+
+	p = 0;
+
+	while (str[p] != '\0')
 	{
-		_putchar(*str);
+		printf("%c", str[p]);
+		p++;
 	}
-		_putchar('\n');
+	printf("\n");
 }
 
