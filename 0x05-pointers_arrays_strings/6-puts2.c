@@ -25,6 +25,6 @@ void puts2(char *str)
 	}
 	while (x % 2 == 0 && x <= halfstring);
 	{
-		prinf("%c", str[x]);
+		printf("%c", str[x]);
 	}
 }
