@@ -1,4 +1,4 @@
-#include <mainh.h>
+#include "main.h"
 /**
  * _strlen - returns the legnth of a string
  * @s: string
