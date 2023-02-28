@@ -20,9 +20,11 @@ void puts2(char *str)
 	}
 	halfstring = length / 2;
 
-	while (x <= halfstring)
+	do {
+		printf("%c", str[0]);
+	}
+	while (x % 2 == 0 && x <= halfstring)
 	{
-		printf("%c", str[x]);
-		x++;
+		prinf("%c", str[x]);
 	}
 }
